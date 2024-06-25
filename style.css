@@ -15,12 +15,14 @@
   margin: 0 auto;
 }
 
+/* hero */
 .hero {
   display: flex;
   align-items: center;
   gap: 64px;
   padding-top: 48px;
   position: relative;
+  margin-bottom: 150px;
 }
 
 .hero-image {
@@ -46,6 +48,28 @@
 .hero-pattern2{
     position: absolute;
     width: 80px;
-    right: 40px;
+    right: 400px;
     top: 440px;
+}
+
+
+/* wish */
+.wish{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    margin-bottom: 150px;
+}
+
+.wish p {
+    font-size: 24px;
+}
+
+.wish-image-container{
+    display: flex;
+    gap: 10px;
+}
+
+.wish-image-container img {
+    width: 230px;
 }
