@@ -52,6 +52,27 @@
   top: 440px;
 }
 
+.audio {
+  position: absolute;
+  top: 80px;
+  left: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.audio span{
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(83, 83, 83);
+  transform: translateX(12px);
+}
+
+.audio audio {
+  height: 36px;
+  /* width: 200px; */
+}
+
 /* wish */
 .wish {
   display: flex;
