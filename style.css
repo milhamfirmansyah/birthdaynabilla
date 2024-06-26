@@ -58,19 +58,19 @@
   left: 500px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 3px;
 }
 
 .audio span{
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 500;
   color: rgb(83, 83, 83);
-  transform: translateX(12px);
+  transform: translateX(6px);
 }
 
 .audio audio {
-  height: 36px;
-  width: 250px;
+  height: 24px;
+  width: 100px;
 }
 
 /* wish */
